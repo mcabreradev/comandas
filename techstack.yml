@@ -1,0 +1,447 @@
+repo_name: mcabreradev/comandas
+report_id: 1778031ba6acd636a420cbd18482485f
+repo_type: Public
+timestamp: '2023-11-14T15:29:06+00:00'
+requested_by: mcabreradev
+provider: github
+branch: master
+detected_tools_count: 32
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Bulma
+  description: Free, open source, &amp; modern CSS framework based on Flexbox
+  website_url: http://bulma.io/
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/5204/bulma-logo.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.0.5
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source: server/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 2.3.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: server/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: server/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 24.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: client/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: server/yarn.lock
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: server/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: server/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: server/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 4.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 9.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: compression
+  description: Node.js compression middleware
+  package_url: https://www.npmjs.com/compression
+  version: 1.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: client/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: server/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: helmet
+  description: Help secure Express/Connect apps with various HTTP headers
+  package_url: https://www.npmjs.com/helmet
+  version: 3.21.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16584/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: server/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: history
+  description: Manage session history with JavaScript
+  package_url: https://www.npmjs.com/history
+  version: 4.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16209/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: nedb
+  description: File-based embedded data store for node.js
+  package_url: https://www.npmjs.com/nedb
+  version: 1.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17153/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
+  detection_source_url: server/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in nedb
+    cve_id: CVE-2021-23395
+    cve_url: https://github.com/advisories/GHSA-339j-hqgx-qrrx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: serve-favicon
+  description: Favicon serving middleware with caching
+  package_url: https://www.npmjs.com/serve-favicon
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16361/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: server/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: socket.io-client
+  description: "[![Build Status]"
+  package_url: https://www.npmjs.com/socket.io-client
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16164/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
+- name: winston
+  description: A logger for just about everything
+  package_url: https://www.npmjs.com/winston
+  version: 3.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: server/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2020-06-29 23:31:25.000000000 Z
